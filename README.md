@@ -6,7 +6,7 @@ In this project I developed a timer with options for the user to decide the desi
 This timer can be used by people looking for ways to optimize their studies using the Pomodoro study method.
 
 
-## Features:
+## 🚀 Features:
 
 - Dark and light themes
 - Environmental sounds
@@ -15,7 +15,7 @@ This timer can be used by people looking for ways to optimize their studies usin
 - Possibility of adding or removing five minutes
 
 
-## Stack:
+## 💻 Stack:
 
 **Front-end:** HTML, CSS and JavaScript.
 
