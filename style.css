@@ -10,8 +10,14 @@
     --primary-color: #323238;
     --button-bckg: #E1E1E6;
     --button-active: #02799D;
+    --backg-color: #FFF;
 
     font-size: 62.5%;
+}
+
+html.light{
+    --primary-color: #FFF;
+    --backg-color: #1c1c1d;
 }
 
 body{
@@ -20,7 +26,7 @@ body{
     display: grid;
     height: 100vh;
     place-content: center;
-
+    background: var(--backg-color);
 
 }
 
@@ -46,6 +52,7 @@ body{
 #controls button{
     background: none;
     border: none;
+    color: var(--primary-color);
 
     font-size: 4rem;
 
