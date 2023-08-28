@@ -44,9 +44,36 @@ body{
     margin-bottom: 4rem;
 }
 
+.lightmode{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    padding: 3.2rem;
+}
+
+.lightmode button{
+    font-size: 4rem;
+    background: var(--button-bckg);
+    border: none;
+
+    border-radius: 9999rem;
+    padding: 2.4rem;
+    cursor: pointer;
+
+    transition: transform .4s;
+}
+
+.lightmode button:hover{
+    background: rgb(0, 141, 192);
+    color: #FFF;
+    transform: scale(1.15);
+}
+
 #controls{
     display: flex;
     gap: 4rem;
+    
 }
 
 #controls button{

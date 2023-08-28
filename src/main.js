@@ -36,5 +36,9 @@ marketBtn.addEventListener('click', () => {
     sounds.marketSound.loop = true
 })
 
+const toggleBtn = document.getElementById('toggle')
+toggleBtn.addEventListener('click', () => {
+    document.
+})
 
 
