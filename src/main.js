@@ -38,7 +38,7 @@ marketBtn.addEventListener('click', () => {
 
 const toggleBtn = document.getElementById('toggle')
 toggleBtn.addEventListener('click', () => {
-    document.
+    document.documentElement.classList.toggle('light')
 })
 
 

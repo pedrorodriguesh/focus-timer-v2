@@ -27,6 +27,7 @@ body{
     height: 100vh;
     place-content: center;
     background: var(--backg-color);
+    transition: background .3s;
 
 }
 
@@ -50,6 +51,7 @@ body{
     right: 0;
 
     padding: 3.2rem;
+    
 }
 
 .lightmode button{
