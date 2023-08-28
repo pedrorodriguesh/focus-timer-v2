@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Timer - V2</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="./src/main.js" type="module" defer></script>
+</head>
+<body>
+
+    <div id="app">
+        <section class="left-side">
+            <div class="timer">
+                <span id="minutes">00</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+            </div>
+            <div id="controls">
+                <button id="start" class="ph-bold ph-play-circle"></button>
+                <button id="stop" class="ph-bold ph-stop-circle"></button>
+                <button id="plus" class="ph-bold ph-plus"></button>
+                <button id="minus" class="ph-bold ph-minus"></button>
+            </div>
+        </section>
+
+        <section class="right-side">
+            <button id="tree" class="ph-bold ph-tree"></button>
+            <button id="rain" class="ph-bold ph-cloud-rain"></button>
+            <button id="fire" class="ph-bold ph-fire"></button>
+            <button id="market" class="ph-bold ph-storefront"></button>
+        </section>
+    </div>
+    
+</body>
+</html>
