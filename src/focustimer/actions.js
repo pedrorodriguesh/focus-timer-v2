@@ -45,6 +45,9 @@ start.addEventListener('click', () => {
     if(minutes === 0){
         return
     }
+    if(state.isRunning === true){
+        return
+    }
     
     state.isRunning = true
     timer.countdown()
@@ -59,5 +62,4 @@ stop.addEventListener('click', () => {
 
     timer.updateDisplay(0, 0)
     sound.buttonPressAudio.play()
-
 })
