@@ -45,6 +45,7 @@ start.addEventListener('click', () => {
     if(minutes === 0){
         return
     }
+    
     if(state.isRunning === true){
         return
     }
